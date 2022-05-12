@@ -66,6 +66,7 @@ async def reupload_pack(client: TelegramClient, pack: StickerSetFull, output_dir
     except FileExistsError:
         pass
 
+    print(f"PACK PATH {pack_path}")
     print(f"Reuploading {pack.set.title} with {pack.set.count} stickers "
           f"and writing output to {pack_path}")
 
