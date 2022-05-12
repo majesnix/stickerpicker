@@ -1,6 +1,8 @@
 {
-    "packs": [
-      "emotes.json"
-    ],
-    "homeserver_url": "https://matrix.majesnix.com"
-  }
+  "packs": [
+    "CalliopeEN.json",
+    "HoloItaYT.json",
+    "letsallloveyuno.json"
+  ],
+  "homeserver_url": "https://matrix.majesnix.com"
+}
